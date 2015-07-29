@@ -1,2 +1,3 @@
-# huit
-drupal8 huit theme
+# wit
+drupal8 wit theme
+
