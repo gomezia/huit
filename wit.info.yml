@@ -1,0 +1,11 @@
+name: Wit
+type: theme
+description: 'First drupal8 theme based on Classy'
+package: Core
+# version: VERSION
+# core: 8.x
+
+libraries:
+  - wit/base
+  - core/normalize
+
