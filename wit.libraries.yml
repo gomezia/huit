@@ -1,5 +1,12 @@
 base:
-  version: 1.x
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+      css/print.css: { media: print }
+
+bootstrap:
+  version: VERSION
   css:
     theme:
       css/style.css: {}
@@ -7,3 +14,5 @@ base:
       bootstrap/css/bootstrap.min.css: {}
   js:
     bootstrap/js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
