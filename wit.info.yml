@@ -1,11 +1,14 @@
-name: Wit
+name: wit
 type: theme
-description: 'First drupal8 theme based on Classy'
-package: Core
-# version: VERSION
-# core: 8.x
-
+description: 'My first drupal8 theme.'
+package: Custom
+core: 8.x
+version : 8.x-1.0
 libraries:
   - wit/base
-  - core/normalize
-
+  - wit/bootstrap
+regions:
+  header: Entête
+  content: Contenu
+  sidebar_first: 'Colonne latérale'
+  footer: 'Pied de page'

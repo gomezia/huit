@@ -1,17 +1,9 @@
 base:
-  version: VERSION
+  version: 1.x
   css:
     theme:
-      css/layout.css: {}
-
-book-navigation:
-  version: VERSION
-  css:
-    theme:
-      css/navigation/book.theme.css: {}
-
-drupal.comment.threaded:
-  version: VERSION
-  css:
-    theme:
-      css/comment/comment.theme.css: {}
+      css/style.css: {}
+      css/print.css: { media: print }
+      bootstrap/css/bootstrap.min.css: {}
+  js:
+    bootstrap/js/bootstrap.min.js: {}

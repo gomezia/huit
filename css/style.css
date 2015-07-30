@@ -1,0 +1,17 @@
+/**
+ * @file
+ *
+ * @see \Drupal\system\Tests\Installer\InstallerTranslationTest::testInstaller()
+ */
+body {
+/*	background-color: #f47e7e;*/
+	margin:0;
+	padding:0;
+}
+
+.layout-container {
+	width: 1020px;
+	margin:auto;
+	background-color: #ffffff;
+	padding: 10px;
+}
